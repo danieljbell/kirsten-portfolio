@@ -1,0 +1,27 @@
+{
+  "name": "kirsten-porfolio",
+  "version": "1.0.0",
+  "description": "Static site for hosting kirsten's info for a new job!",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"bundle exec jekyll serve\" \"gulp\""
+  },
+  "author": "Daniel Bell",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "concurrently": "^4.0.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "normalize.css": "^8.0.0",
+    "postcss-import": "^12.0.0",
+    "pump": "^3.0.0"
+  }
+}

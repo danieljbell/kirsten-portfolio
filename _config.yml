@@ -1,0 +1,7 @@
+exclude: 
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - npm-debug.log

@@ -1,0 +1,52 @@
+.content-section {
+  padding-left: calc(200px + 8rem);
+}
+
+/*
+=========================
+INTRODUCTION SECTION
+=========================
+*/
+.section--introduction {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction--image {
+  max-width: 500px;
+  img {
+    object-fit: none;
+    max-height: 100vh;
+    min-width: 500px;
+  }
+}
+
+.introduction--content {
+  padding-right: 8rem;
+}
+
+.introduction--title {
+  color: $dark-blue;
+  font-size: 4rem;
+  line-height: 0.8;
+}
+
+.introduction--meta {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.introduction--meta-item {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  
+  img {
+    margin-right: 0.5rem;
+  }
+
+}

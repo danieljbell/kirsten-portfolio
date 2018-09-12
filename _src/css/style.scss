@@ -1,0 +1,15 @@
+@import '../../node_modules/normalize.css/normalize.css';
+
+$light-blue: #9DD6C7;
+$mid-blue: #4F9BCD;
+$dark-blue: #428281;
+$text-color: #707070;
+
+* {
+  box-sizing: border-box;
+}
+
+@import 'base/_typography';
+
+@import 'modules/_header';
+@import 'modules/section';

@@ -1,0 +1,42 @@
+.site-header {
+  background-color: $mid-blue;
+  background-image: linear-gradient($light-blue, $mid-blue);
+  width: 100%;
+  max-width: 200px;
+  min-height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-logo-link {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  max-width: 150px;
+  width: 150px;
+  max-height: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 3rem auto;
+}
+
+.site-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin: 0 auto;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.site-navigation {
+  flex-grow: 2;
+}
